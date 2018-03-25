@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@color/red"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="@string/red"
+            android:textColor="@color/black"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="yellow"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView4" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="yellow"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="#FFA500"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="orange"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:background="#FFB6C1"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="pink"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="blue"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@color/green"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="green"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toLeftOf="@+id/textView3"
+            android:layout_toStartOf="@+id/textView3"
+            android:layout_marginRight="38dp"
+            android:layout_marginEnd="38dp" />
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="#7D378B"
+            android:gravity="center"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:text="INDIGO"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">Demo</string>
+        <string name="no_1">One,One</string>
+        <string name="no_2">One,Two</string>
+        <string name="no_3">One,There</string>
+        <string name="no_4">One,Four</string>
+        <string name="red">red</string>
+        <string name="yelloe">yellow</string>
+        <string name="green">green</string>
+    </resources>
